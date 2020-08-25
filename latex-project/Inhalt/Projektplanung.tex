@@ -7,21 +7,18 @@
 \label{sec:Projektphasen}
 
 \begin{itemize}
-	\item In welchem Zeitraum und unter welchen Rahmenbedingungen (\zB Tagesarbeitszeit) findet das Projekt statt?
-	\item Verfeinerung der Zeitplanung, die bereits im Projektantrag vorgestellt wurde.
+	\item Der Projektbeginn war für den 25.05.2020 angesetzt, in Zusammenarbeit mit dem Auftraggeber wurde das Enddatum auf den 15.06.2020 datiert. Im Folgenden liste ich eine grobe Zeitplanung auf, eine detailliertere Planung befindet sich im Anhang auf der Seite TODO. Zu entnehmen ist der Aufgliederung bereits der zeitliche Mehraufwand im Bereich der Implementierungsphase im Vergleich mit den anderen Phasen. Aus der Erfahrung heraus habe ich hier besonders viel Zeit eingeplant, da es durchaus möglich ist auf Probleme zu stoßen welche in der Planung nicht berücksichtigt wurden.  
 \end{itemize}
-
-\paragraph{Beispiel}
-Tabelle~\ref{tab:Zeitplanung} zeigt ein Beispiel für eine grobe Zeitplanung.
+\paragraph{Zeitplanung:}
+Tabelle~\ref{tab:Zeitplanung}
 \tabelle{Zeitplanung}{tab:Zeitplanung}{ZeitplanungKurz}\\
-Eine detailliertere Zeitplanung findet sich im \Anhang{app:Zeitplanung}.
-
+Eine detailliertere Zeitplanung findet sich im Anhang auf der Seite TODO. \Anhang{app:Zeitplanung}.  
 
 \subsection{Abweichungen vom Projektantrag}
 \label{sec:AbweichungenProjektantrag}
 
 \begin{itemize}
-	\item Sollte es Abweichungen zum Projektantrag geben (\zB Zeitplanung, Inhalt des Projekts, neue Anforderungen), müssen diese explizit aufgeführt und begründet werden.
+	\item Der Entwurf nahm letztlich mehr Zeit in Anspruch als ursprünglich eingeplant war. Innerhalb der Phase gab es einen Mehraufwand im Zusammenhang mit dem Suchen und Testen eines geeigneten Frameworks zur Implementierung visueller Komponenten, insbesondere der Karte, welche in der fertigen Software zu sehen ist. Ich habe die zusätzliche Zeit zu Lasten der Testphase in die Planung investiert, um einen organisierten Ablauf zu sichern. Im Gegensatz zum geschätzten Aufwand fiel die Testphase beinahe zur Gänze aus dem Projekt heraus. Die ist der Grund aus welchem die Software weder Unit- noch Automatische Oberflächentests aufweist.  
 \end{itemize}
 
 
@@ -29,14 +26,16 @@ Eine detailliertere Zeitplanung findet sich im \Anhang{app:Zeitplanung}.
 \label{sec:Ressourcenplanung}
 
 \begin{itemize}
-	\item Detaillierte Planung der benötigten Ressourcen (Hard-/Software, Räumlichkeiten \usw).
-	\item \Ggfs sind auch personelle Ressourcen einzuplanen (\zB unterstützende Mitarbeiter).
-	\item Hinweis: Häufig werden hier Ressourcen vergessen, die als selbstverständlich angesehen werden (\zB PC, Büro). 
+	\item Zur Realisierung des Projektes stand mir ein Mac Book Air, seitens meines Unternehmens, zur Verfügung. Die Spezifikationen des Gerätes können unter folgendem Link, auf der Herstellerseite, abgerufen werden: “https://www.apple.com/de/macbook-air/specs/”. Zur Erstellung des Quellcodes nutzte ich den Open-Source Texteditor Atom, da dieser auch in einer macOS –Version erhältlich ist. 
+
+Des Weiteren steht ein Webserver, seitens des Anbieters All-Inkl.com, zur Verfügung, um die Anwendung zu veröffentlichen. Diesen mietete ich über den genannten Anbieter, das Angebot läuft jedoch am Ende des Jahres aus. Sollte die Webseite weiterhin betrieben werden, muss der Vertrag zunächst verlängert werden. Alternativ kann der Anbieter natürlich auch gewechselt werden.  
+
+Als Räumlichkeit stand mir meine Wohnung zur Verfügung, ich entwickelte hauptsächlich im Homeoffice. Den Zugang zu den Büroräumen nutzte ich selten und wenn dann nur um mich an der Kaffeekasse gütlich zu tun. Hierbei füllte ich meine Ausgaben wieder auf, welche ich, durch das Leeren von durchschnittlich zwei Kästen Bier am Tag, aufwies. Im gesamten Projektverlauf sind Keinerlei bleibende Kosten meinerseits entstanden. 
 \end{itemize}
 
 
 \subsection{Entwicklungsprozess}
 \label{sec:Entwicklungsprozess}
 \begin{itemize}
-	\item Welcher Entwicklungsprozess wird bei der Bearbeitung des Projekts verfolgt (\zB Wasserfall, agiler Prozess)?
+	\item Beim Entwicklungsprozess verfolgte ich strickt das Konzept Continuous Integration. Neue Programmteile wurden manuell getestet und, wenn erfolgreich, in die Software eingegliedert. Somit entstand ein stetiger Code –Zuwachs und Fehler konnten schnell erkannt und beseitigt werden. Das Konzept eignet sich auch für alleinige Projektarbeiten und sorgt für einen steten Vortschritt.
 \end{itemize}
